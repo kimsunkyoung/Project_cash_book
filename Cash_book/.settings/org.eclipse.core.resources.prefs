@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
+encoding//WebContent/main.jsp=UTF-8
 encoding//src/com/cash_book/model/dbConnection/DBConnection.java=UTF-8
 encoding//src/tester/DBConnection_Test_1.java=UTF-8

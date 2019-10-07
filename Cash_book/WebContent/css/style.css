@@ -1,0 +1,142 @@
+@charset "UTF-8";
+body{
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 0.75em;
+}
+#wrap{
+	width:971px;
+	text-align: left;
+	margin:0;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ffffff;
+}
+#logo{
+	float:left;
+ 	width: 160px; 
+	height: 100px;
+	margin: 20px 0 0 20px;
+}
+nav#category{
+	float:right;
+	font-family: arial, Helvetico, san-serif;
+	margin: 20px 64px 0 0px;
+}
+nav#category ul{
+	list-style: none;
+}
+nav#category ul li{
+	display: block;
+	float: left;
+	height: 30px;
+	font-family: 굴림;
+}
+nav#category a{
+	color: #ccc;
+	text-decoration: none;
+	width: 80px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+}
+
+article p{padding-left: 10px;}
+
+article{
+	float: left;
+	width: 800px;
+ 	padding-right: 10px; 
+	padding-bottom: 20px;  /* 내가추가 */
+	font-family: Verdona, Geneva, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+form{margin: 10px 0 0 0;}
+form fieldset {
+	padding: 10px 0px 20px 5px;
+	border: none;
+}
+form fieldset legend{
+	font-size: 20px;
+	border-bottom: 1px dotted #666;
+	width: 950px; 
+	padding: 5px 0;
+}
+form label{
+	font-size : 1.2em;
+	width: 100px;
+	padding: 5px 0;
+}
+form #button{margin: 0px 0 0 0;}
+form .submit, form .cancel{
+	height: 30px;
+	width: 150px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	box-shadow: 3px 3px 2px #ccc;
+	font-size: 14px;
+	background-repeat: repeat-x;
+	background-position: center center;
+	color: #000;
+	margin: 0 0 0 20px;
+}
+
+	body {
+		scrollbar-face-color: #F6F6F6;
+		scrollbar-highlight-color: #bbbbbb;
+		scrollbar-3dlight-color: #FFFFFF;
+		scrollbar-shadow-color: #bbbbbb;
+		scrollbar-darkshadow-color: #FFFFFF;
+		scrollbar-track-color: #FFFFFF;
+		scrollbar-arrow-color: #bbbbbb;
+		margin-left:"0px"; margin-right:"0px"; margin-top:"0px"; margin-bottom:"0px";
+	}
+
+	td {
+		font-family: "돋움"; font-size: 9pt; color:#595959;
+	}
+	th {
+		font-family: "돋움"; font-size: 9pt; color:#000000;
+	}
+	select {
+		font-family: "돋움"; font-size: 9pt; color:#595959;
+	}
+
+
+	.divDotText {
+		overflow:hidden;
+		text-overflow:ellipsis;
+	}
+
+	A:link { 
+		font-size:9pt;
+		font-family:"돋움";
+		color:#000000;
+		text-decoration:none; 
+	}
+	A:visited { 
+		font-size:9pt;
+		font-family:"돋움";
+		color:#000000;
+		text-decoration:none; 
+	}
+	A:active { 
+		font-size:9pt;
+		font-family:"돋움";
+		color:red;
+		text-decoration:none; 
+	}
+	A:hover { 
+		font-size:9pt;
+		font-family:"돋움";
+		color:red;
+		text-decoration:none;
+	}
+	
+	.clear{clear:both}
+	
+#foot{
+	text-align: center;
+}
